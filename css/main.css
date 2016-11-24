@@ -1,0 +1,42 @@
+hr {
+	position: center;
+	width: 40%;
+	border-radius: 10px;
+    border: 1px solid #080808 !important;
+}
+
+#sede {
+	background-color: red;
+	padding: 5%;
+}
+
+.bgwhite {
+	background-color: rgba(250,250,250,0.5);
+}
+
+#padding1 {
+	padding: 5%;
+}
+
+#fotos {
+	padding: 5%;
+}
+
+#puntos {
+	padding-left: 15%;
+}
+
+#imagenPersona {
+	height: 300px;
+	width: 450px;
+}
+
+.form-control {
+	margin-bottom: 0px !important;
+}
+
+.paises {
+	background-color: red !important; 
+	color: white !important;
+}
+

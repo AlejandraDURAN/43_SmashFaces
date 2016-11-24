@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <meta charset="UTF-8">
+	  <title>Smash Faces</title>
+	  <link rel="stylesheet" href="css/main.css">
+	  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	</head>
+	<body>
+		<section id="sede" class="text-center">
+			<div class="container container-fluid bgwhite">
+				<h1>Smash Faces</h1>
+				<h2> Instrucciones </h2>
+				<h2>Bienvenidas al juego Smash Faces, tú misión es poder identificar a todas las integrantes de cada squad</h2>
+			</div>
+		</section>
+		<section id="padding1">
+			<div class="container container-fluid">
+				<div class="row">
+					<div class="col-xs-3">
+						<h2>Elige el Squad: </h2>
+					</div>
+					<div class="col-xs-3">
+						<select class="form-control mySelect paises">
+    						<option>Black Coders</option>
+    						<option>Las Babies</option>
+    						<option>Las gorditas de Nat</option>
+    						<option>Las Brujas</option>
+    					</select>
+					</div>
+					<div id="puntos" class="col-xs-6">
+						<h2>Puntos: <span id="spanPuntos"> 0 </span>puntos</h2>
+					</div>
+				</div>				
+			</div>
+		</section>
+		<section id="fotos">
+			<div class="container container-fluid">
+				<div class="row">
+					<div id="contenedorJuego" class="contenedor">
+						<img id="imagenPersona" src="img/coder.jpg">
+						<input type="text" id="inputNombre"></input>
+						<button id="btnRevisar" type="button">Comprobar</button>
+					</div>
+				</div>
+			</div>		
+		</section>
+		<script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
